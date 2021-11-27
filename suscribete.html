@@ -1,0 +1,56 @@
+<!DOCTYPE HTML5>
+<html lang="es">
+<head><title>Revista Sin Límites </title><meta charset="utf-8"><link rel="stylesheet" type="text/css" href="CSS/estilo.css"><link rel="icon" href="IMGS/logo.png"><meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
+<link rel="stylesheet" href="CSS/reset.css">
+<link rel="stylesheet" href="CSS/main.css">
+
+</head>
+
+    <body>
+<header>
+<div class="contenedor">
+    <h1><img src="IMGS/logo.png" width="40px" height="40px" id="icono"> Revista AlfaΩmega</h1>
+    <input type="checkbox" id="menu-bar">
+    <label class="icon-menu" for="menu-bar"><img src="IMGS/menu-bar.png" width="30px" height="30px"></label>
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="suscribete.html">Suscríbete</a>
+        <a href="">Contenido descargable</a>
+    </nav>
+</div>
+</header> 
+
+<main>
+    <section id="banner">
+    <img src="IMGS/BANNER.PNG">
+    <div class="contenedor">
+    <h2>"De derivadas a integrales, la revista que te lleva de inicio a fin"</h2>
+    <p id="sub">¿Ya leíste nuestra revista?</p>
+    </div>
+    </section>
+    
+   <div class="container">
+		<div class="form__top">
+			<h2> Formulario <span>Registro de suscripción</span></h2>
+		</div>		
+		<form class="form__reg" action="">
+			<input class="input" type="text" placeholder="&#128100;  Nombre" required autofocus>
+            <input class="input" type="email" placeholder="&#9993;  Email" required>
+            <input class="input" type="text" placeholder="&#128222;  Telefono" required>
+            <input class="input" type="text" placeholder="&#8962;  Dirección" required>
+            <div class="btn__form">
+            	<input onclick="registro()" class="btn__submit" type="submit" value="REGISTRAR">
+                <script>
+                function registro(){
+                    alert("Te has suscrito correctamente, pronto llegara la factura a tu correo electronico");
+                }
+                </script>
+            	<input class="btn__reset" type="reset" value="LIMPIAR">	
+            </div>
+		</form>
+	</div>
+    
+        </main>
+    </body>
+</html>
